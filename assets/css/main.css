@@ -1,0 +1,52 @@
+html, body, h1, div {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #01579B;
+  overflow: hidden;
+}
+
+.game-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 320px;
+  height: 415px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  margin: 50px 0;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: #FFF;
+}
+
+.food-wrap {
+  margin: 0 auto;
+  width: 128px;
+  height: 128px;
+  background-image: url('../img/food.png');
+}
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: 80%;
+  font-size: 16px;
+  line-height: 2.5;
+  text-align: center;
+  color: #01579B;
+  background: #FFF;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  -webkit-appearance: none;
+}
